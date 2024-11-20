@@ -1,7 +1,7 @@
 /*
  * Remy Rogers
  */
-public class LLQueue <T> implements QueueI <T> {
+public class LLQueue <T> implements QueueI<T> {
 	private class ListNode
 	{
 		T data;
