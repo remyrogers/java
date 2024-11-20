@@ -111,8 +111,31 @@ public class GenLL <T> {
 			return false;
 		}
 	}
+	public boolean isLastNode()
+	{
+		if (current == null)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
 	public void clear()
 	{
 		head = null;
 	}
+	public int length()
+	{
+		int size = 0;;
+		ListNode temp = head;
+		while (temp != null)
+		{
+			size++;
+			temp = temp.link;
+		}
+		return size;
+	}
+	
 }
