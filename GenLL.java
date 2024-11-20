@@ -115,15 +115,4 @@ public class GenLL <T> {
 	{
 		head = null;
 	}
-	public int length()
-	{
-		int size = 0;;
-		ListNode temp = head;
-		while (temp != null)
-		{
-			size++;
-			temp = temp.link;
-		}
-		return size;
-	}
 }
